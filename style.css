@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+header{
+  background-image: url(home1.jpg);
+  background-size: 100%;
+  color: white;
+  background-repeat: no-repeat;
+  padding-bottom: 15%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  padding: 40px;
+}
+nav ul {
+  display: flex;
+  margin: auto;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+#home {
+  padding: 150px 80px;
+}
+span h2 {
+  color: rgb(241, 128, 80);
+  font-size: 50px;
+}
+button#order {
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+button#order:hover {
+  background-color: rgb(249, 190, 138);
+}
+button#reserve {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+button#reserve:hover {
+  background-color: rgb(249, 190, 138);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item-name {
+  margin: 0;
+  font-size: 24px;
+}
+
+.item-desc {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.item-price {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #ff781e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #8c4646;
+}
+
+.cart {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 20px;
+  z-index: 999;
+  display: none;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart .close {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cart .close:hover {
+  background-color: #ccc;
+}
+
+container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-image: url(coffee.jpg);
+  padding: 50px 250px;
+}
+
+#about {
+  margin: auto;
+  background-color: rgb(50, 75, 98);
+  color: white;
+  font-size: 20px;
+  padding: 80px 300px;
+}
+#contact {
+  background-color: rgb(50, 75, 98);
+  color: white;
+}
+.con {
+  width: 600px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 50px;
+  margin: auto;
+}
+
+textarea#message {
+  height: 150px;
+}
+
+#photo {
+  width: 800px;
+  margin: auto;
+}
+.pho {
+  background-color: rgb(50, 75, 98);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  color: white;
+}
+footer h4{
+  text-decoration: underline;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul li{
+padding-left: 35px;
+}
+footer ul {
+  margin: 0 100px;
+}
+#footer {
+  background-color: rgb(30, 27, 70);
+}
+hr.new {
+  margin: 0;
+}
+#footer p {
+  text-align: center;
+  color: white;
+}
